@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConfirmFinalOrderActivity">
+
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Va rugam sa confirmati datele de livrare"
+        android:textSize="19dp"
+        android:textColor="@color/design_default_color_primary_dark"
+        android:layout_margin="26dp"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/shippment_name"
+        android:layout_below="@id/txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:hint="Nume"
+
+        />
+
+    <EditText
+        android:id="@+id/shippment_phone_number"
+        android:layout_below="@id/shippment_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:hint="Numar de telefon"
+
+        />
+
+    <EditText
+        android:id="@+id/shippment_address"
+        android:layout_below="@id/shippment_phone_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:hint="Adresa"
+
+        />
+
+    <EditText
+    android:id="@+id/shippment_city"
+    android:layout_below="@id/shippment_address"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginLeft="20dp"
+    android:hint="Oras"
+
+    />
+
+    <Button
+        android:id="@+id/confirm_final_order_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dp"
+        android:text="Confirma"
+        android:background="@color/design_default_color_primary_dark"
+        android:textColor="#FAF8F8"
+        android:textSize="22dp"
+        android:textAllCaps="false"
+        />
+
+
+
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

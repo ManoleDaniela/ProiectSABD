@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Admin.AdminCategoryActivity">
+
+    <TextView
+        android:id="@+id/slogan_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Adauga produs nou"
+        android:textAlignment="center"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal" />
+
+
+
+    <LinearLayout
+        android:id="@+id/linear1_category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/slogan_category"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="45dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <ImageView
+            android:id="@+id/cream"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/cream"
+            />
+
+        <ImageView
+            android:id="@+id/powder"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/powder"
+            />
+
+
+
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/linear2_category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear1_category_layout"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="45dp">
+
+        <ImageView
+            android:id="@+id/brush"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/brush"
+            />
+
+
+
+
+
+        <ImageView
+            android:id="@+id/foundation"
+            android:layout_width="70dp"
+            android:layout_height="80dp"
+            android:src="@drawable/foundation"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp" />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/linear3_category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear2_category_layout"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="45dp">
+
+        <ImageView
+            android:id="@+id/eyeshadow"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/eyeshadow"
+            />
+
+
+
+        <ImageView
+            android:id="@+id/lipstick"
+            android:layout_width="70dp"
+            android:layout_height="80dp"
+            android:src="@drawable/lipstick"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/maintain_btn"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_above="@id/check_orders_btn"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="28dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/design_default_color_primary_dark"
+        android:text="Modifica produse"
+        android:textAllCaps="false"
+        android:textColor="#FFFCFC"
+        android:textSize="22dp" />
+
+    <Button
+        android:id="@+id/check_orders_btn"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_above="@id/admin_logout_btn"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="28dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/design_default_color_primary_dark"
+        android:text="Verifica noile comenzi"
+        android:textAllCaps="false"
+        android:textColor="#FFFCFC"
+        android:textSize="22dp" />
+
+    <Button
+        android:id="@+id/admin_logout_btn"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_alignParentEnd="true"
+
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="49dp"
+        android:layout_alignParentRight="true"
+        android:background="@color/design_default_color_primary_dark"
+        android:text="Deconecteaza-te"
+        android:textColor="#FFFCFC"
+        android:textSize="22dp"
+        android:textAllCaps="false"
+
+        />
+
+
+
+</RelativeLayout>
